@@ -1,8 +1,14 @@
-name: "my-website"
+name: "Troubled Psychologist"
+out_dir: "."
+type: inverse
 navbar:
-  title: "My Website"
-  left:
+  title: "Troubled Psychologist"
+  right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "R in Psycholgy"
+      href: RinPsychology.html
+    - text: "Experimental Lab"
+      href: lab.html
+output:
+  html_document:
